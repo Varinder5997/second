@@ -11,11 +11,11 @@ public class CodingChalangeApplication {
 		FurnitureService fs=new FurnitureService();
 		boolean flag=true;
 		do {
-			System.out.println("1. for add the furniture");
-			System.out.println("2. for sort decending order on cost based");
-			System.out.println("3. for purchased furniture");
-			System.out.println("4. for find furniture by Id");
-			System.out.println("5. for exit");
+			System.out.println("1. add the furniture");
+			System.out.println("2. sort decending order on cost based");
+			System.out.println("3. purchased furniture");
+			System.out.println("4. find furniture by Id");
+			System.out.println("5. exit");
 			int choice=sc.nextInt();
 			switch (choice) {
 			case 1:
