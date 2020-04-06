@@ -11,7 +11,7 @@ public class ExceptionApplication {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		AdditionService additionService=new AdditionService();
-		System.out.println("Enter the first number");
+		System.out.println("Enter number");
 		int firstNumber=sc.nextInt();
 		System.out.println("Ente rthe second number");
 		int secondNumber=sc.nextInt();
